@@ -18,12 +18,6 @@ namespace SchoolLibrary.Controllers
             _bookAssignmentService = bookAssignmentService;
         }
 
-        [HttpGet("index")]
-        public string index()
-        {
-            return "Service is Runnung!";
-        }
-
         // GET: api/Books
         [HttpGet]
         public IEnumerable<Book> GetBook()
