@@ -19,7 +19,7 @@ Overdue Books: api/Books/Overdue (GET)
 
 For more information about the APIs, Swagger UI can be found at http://localhost:61155/ for this project.
 
-There system uses In-Memory Data Storage for the time being therefore data will not persist after service is closed or restarted.
+This solution uses In-Memory Data Storage for the time being therefore data will not persist after service is closed or restarted.
 
 Currently, there is not logging happening but can be added later upon need.
 
